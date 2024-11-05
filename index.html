@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Vendas de Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatório de Vendas da Loja Online ShopMax</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Minha região</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container" class="graficos-container">
+            <p class="graficos-container_texto">
+                Em nossa loja online, vendemos mais de <strong class="spant">500</strong> tipos de produtos. Durante o mês passado, tivemos uma média de <strong class="spant">2000 vendas</strong> diárias, e os clientes passaram em média <strong class="spant">15 minutos</strong> em nosso site.
+            </p>
+        </section>
+    </main>
+    <div class="container8">
+        <h1 style="color: #FFA500;">Gráfico de Vendas de Produtos no Mês</h1>
+        <div class="content">
+            <canvas id="myChart" width="800" height="400"></canvas>
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por João Vitor Ianone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
